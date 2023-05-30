@@ -1,7 +1,7 @@
-import './App.css';
+import './assets/global.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import MainContents from "./List";
-import Details from "./Details";
+import MainContents from "./pages/List";
+import Details from "./pages/Details";
 
 function App() {
   return (
